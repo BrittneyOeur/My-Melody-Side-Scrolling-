@@ -4,7 +4,7 @@ window.addEventListener("load", function() {
     const ctx = canvas.getContext("2d");
     canvas.width = 1200;
     canvas.height = 750;
-    let enemies = [];
+    let enemies = [];   // Store enemies
     let score = 0;  // set score
     let gameOver = false;
 
