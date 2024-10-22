@@ -2,6 +2,10 @@ body {
     background-color: white;
 }
 
+audio {
+    display: none;
+}
+
 #canvas1 {
     background: white;
     border: 10px solid white;
@@ -14,9 +18,5 @@ body {
 }
 
 #playerImage, #backgroundImage, #enemy, #tile {
-    display: none;
-}
-
-audio {
     display: none;
 }
