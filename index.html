@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Melody Side Scrolling Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="section">
+        <h2>My Melody Side-Scrolling Game</h2>
+        <sub>Use the arrow keys to dodge the monster and earn points!</sub>
+    </div>
     <canvas id="canvas1"></canvas>
     <img id="playerImage" src="Sprites/Melody_Teacup_Sprite_Sheet.png">
     <img id="tile" src="Sprites/Pink_Tile.png">
     <img id="backgroundImage" src="Sprites/background.png">
     <img id="enemy" src="Sprites/Monster_Sprite_Small.png">
+    <p id="credit">Monster drawn by: <a href="https://x.com/SugarAsasen" target="_blank"><strong>SugarAsasen (Twitter)</strong></a></p>
     <script src="script.js"></script>
-    <audio id="background-music" autoplay loop>
-        <source src="Audio/My-Melody-Instrumental.mp3" type="audio/mpeg">
-    </audio>
 </body>
 </html>

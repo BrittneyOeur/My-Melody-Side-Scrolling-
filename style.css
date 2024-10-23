@@ -1,3 +1,28 @@
+html, #canvas1 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+
+#section {
+    width: 50%;
+    margin: auto;
+    /* background-color: red; */
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    margin: 0;
+    color:rgb(247, 168, 210);
+}
+
+sub { 
+    color:rgb(247, 168, 210);
+}
+
 body {
     background-color: white;
 }
@@ -13,10 +38,43 @@ audio {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 10px 10px 39px 3px rgba(255,194,227,1);
+    box-shadow: 0px 1px 20px 5px rgba(255,194,227,1);
     border-radius: 3%;
 }
 
 #playerImage, #backgroundImage, #enemy, #tile {
     display: none;
+}
+
+#resetButton {
+    border: 2px solid white;
+    background: rgb(223, 150, 189);
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 10px 30px 10px 30px;
+    position: absolute;
+    top: 53%;
+    left: 50.3%;
+    transform: translate(-55%, -50.3%);
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+}
+
+#resetButton:hover {
+    background: rgb(212, 138, 178);
+    transition: background-color 0.3s ease;
+}
+
+#credit {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color:rgb(247, 168, 210);
+}
+
+a {
+    color:rgb(226, 116, 175);
+    font-weight: 400;
 }
